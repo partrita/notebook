@@ -1,0 +1,19 @@
+[project]
+name = "notebook"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["joconan <partrita@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+start = "jupyter-lab --no-browser"
+
+[dependencies]
+python = ">=3.12.2,<3.13"
+jupyterlab = ">=4.1.5,<4.2"
+pytorch = ">=2.1.2,<2.2"
+torchvision = ">=0.16.1,<0.17"
+polars = ">=0.20.16,<0.21"
+matplotlib = ">=3.8.3,<3.9"
+black-jupyter = ">=24.3.0,<24.4"
