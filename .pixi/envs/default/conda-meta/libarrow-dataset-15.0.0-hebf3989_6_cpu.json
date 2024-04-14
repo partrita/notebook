@@ -1,0 +1,96 @@
+{
+  "build": "hebf3989_6_cpu",
+  "build_number": 6,
+  "depends": [
+    "libarrow 15.0.0 h4f70cd7_6_cpu",
+    "libarrow-acero 15.0.0 hebf3989_6_cpu",
+    "libcxx >=16",
+    "libparquet 15.0.0 h278d484_6_cpu"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "9c86aea0a4c9b040e7da883ad950909c",
+  "name": "libarrow-dataset",
+  "sha256": "194723b5bbcafcc4335cd17a8fb1ede3a10a5958d01203bbe1b6090594eadfee",
+  "size": 488434,
+  "subdir": "osx-arm64",
+  "timestamp": 1708594225432,
+  "version": "15.0.0",
+  "fn": "libarrow-dataset-15.0.0-hebf3989_6_cpu.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libarrow-dataset-15.0.0-hebf3989_6_cpu.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/libarrow-dataset-15.0.0-hebf3989_6_cpu",
+  "files": [
+    "lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+    "lib/libarrow_dataset.1500.0.0.dylib",
+    "lib/libarrow_dataset.1500.dylib",
+    "lib/libarrow_dataset.dylib",
+    "lib/pkgconfig/arrow-dataset.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "c39a2ff7af7733bc4b1e74bcc60ae09eeb86608c53c4fbb4508fb0998a7a7e02",
+        "sha256_in_prefix": "c39a2ff7af7733bc4b1e74bcc60ae09eeb86608c53c4fbb4508fb0998a7a7e02",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "6ed72c22943e0cb7d4de11c277a9e5894e60753132939416b66f0e526c11380f",
+        "sha256_in_prefix": "6ed72c22943e0cb7d4de11c277a9e5894e60753132939416b66f0e526c11380f",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b8ec7489e7501ea134bd8fb67a6475cb744a1ba9fbefa61c42a7156f836bc1b3",
+        "sha256_in_prefix": "b8ec7489e7501ea134bd8fb67a6475cb744a1ba9fbefa61c42a7156f836bc1b3",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "7536f039ec597071689d5b41f2a02b1ac20bd43415ac917930904e33ff6dfed1",
+        "sha256_in_prefix": "7536f039ec597071689d5b41f2a02b1ac20bd43415ac917930904e33ff6dfed1",
+        "size_in_bytes": 4201
+      },
+      {
+        "_path": "lib/libarrow_dataset.1500.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "sha256_in_prefix": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "size_in_bytes": 2541120
+      },
+      {
+        "_path": "lib/libarrow_dataset.1500.dylib",
+        "path_type": "softlink",
+        "sha256": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "sha256_in_prefix": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "size_in_bytes": 2541120
+      },
+      {
+        "_path": "lib/libarrow_dataset.dylib",
+        "path_type": "softlink",
+        "sha256": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "sha256_in_prefix": "ccab0b7cba57282623c04a98ef44115ded089a8a706b183855107ef5f0278a6f",
+        "size_in_bytes": 2541120
+      },
+      {
+        "_path": "lib/pkgconfig/arrow-dataset.pc",
+        "path_type": "hardlink",
+        "sha256": "96cb76c50025f38c245973d0fd7be9fc9b1d1381272b273953bd7781ed77fa00",
+        "sha256_in_prefix": "9395b4d4178e4581500274a1c9e51aec5a7b0819b19e6cee16dfa58a23154cf5",
+        "size_in_bytes": 1174
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

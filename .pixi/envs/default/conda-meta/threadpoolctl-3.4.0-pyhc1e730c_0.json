@@ -1,0 +1,94 @@
+{
+  "build": "pyhc1e730c_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "b296278eef667c673bf51de6535bad88",
+  "name": "threadpoolctl",
+  "noarch": "python",
+  "sha256": "4f4ad4f2a4ee8875cf2cb9c80abf4c7383e5e53cfec41104da7058569d9063b7",
+  "size": 23032,
+  "subdir": "noarch",
+  "timestamp": 1710943698793,
+  "version": "3.4.0",
+  "fn": "threadpoolctl-3.4.0-pyhc1e730c_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.4.0-pyhc1e730c_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/threadpoolctl-3.4.0-pyhc1e730c_0",
+  "files": [
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/threadpoolctl.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b",
+        "sha256_in_prefix": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5a6bc562311ecab86a0dd9dc2780e176621956fdcca9434da077faedcb889862",
+        "sha256_in_prefix": "5a6bc562311ecab86a0dd9dc2780e176621956fdcca9434da077faedcb889862",
+        "size_in_bytes": 13249
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3cb557064e2c0de5e526013fee76f5f39db69662584b2e4b97f7e0fb6621a58a",
+        "sha256_in_prefix": "3cb557064e2c0de5e526013fee76f5f39db69662584b2e4b97f7e0fb6621a58a",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl-3.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "76676b3f5f09f0b5f4a6ef91acf8d3bfd5a0209de77b41e0566cdc442309452d",
+        "sha256_in_prefix": "76676b3f5f09f0b5f4a6ef91acf8d3bfd5a0209de77b41e0566cdc442309452d",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/threadpoolctl.py",
+        "path_type": "hardlink",
+        "sha256": "2d4ea387c55e8f0975ee480b0f17a76d95cad9ab2f51cd808d357e1c4470c78d",
+        "sha256_in_prefix": "2d4ea387c55e8f0975ee480b0f17a76d95cad9ab2f51cd808d357e1c4470c78d",
+        "size_in_bytes": 49753
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

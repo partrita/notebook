@@ -1,0 +1,61 @@
+{
+  "build": "hb547adb_1",
+  "build_number": 1,
+  "depends": [
+    "libbrotlicommon 1.1.0 hb547adb_1"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ee1a519335cc10d0ec7e097602058c0a",
+  "name": "libbrotlidec",
+  "sha256": "c1c85937828ad3bc434ac60b7bcbde376f4d2ea4ee42d15d369bf2a591775b4a",
+  "size": 28928,
+  "subdir": "osx-arm64",
+  "timestamp": 1695990463780,
+  "version": "1.1.0",
+  "fn": "libbrotlidec-1.1.0-hb547adb_1.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libbrotlidec-1.1.0-hb547adb_1.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/libbrotlidec-1.1.0-hb547adb_1",
+  "files": [
+    "lib/libbrotlidec.1.1.0.dylib",
+    "lib/libbrotlidec.1.dylib",
+    "lib/libbrotlidec.dylib",
+    "lib/pkgconfig/libbrotlidec.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlidec.1.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "sha256_in_prefix": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "size_in_bytes": 87520
+      },
+      {
+        "_path": "lib/libbrotlidec.1.dylib",
+        "path_type": "softlink",
+        "sha256": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "sha256_in_prefix": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "size_in_bytes": 87520
+      },
+      {
+        "_path": "lib/libbrotlidec.dylib",
+        "path_type": "softlink",
+        "sha256": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "sha256_in_prefix": "d679fddca9ee5acf00d2bc1eb5688c9d3d9e4786b1da0f9086f49454a1a16060",
+        "size_in_bytes": 87520
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlidec.pc",
+        "path_type": "hardlink",
+        "sha256": "2994622af8e5b3b4c764d691e39f47d68d10126f6de32bd82c667b76874383c2",
+        "sha256_in_prefix": "f8262ccc3b768b85c76ce794dd59e66d2a2e0d1b1c4ca9ae9bf7b6b81855f702",
+        "size_in_bytes": 395
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

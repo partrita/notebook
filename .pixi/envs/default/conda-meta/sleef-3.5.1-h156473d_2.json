@@ -1,0 +1,101 @@
+{
+  "build": "h156473d_2",
+  "build_number": 2,
+  "depends": [
+    "llvm-openmp >=11.1.0",
+    "llvm-openmp >=12.0.1"
+  ],
+  "license": "BSL-1.0",
+  "md5": "bd159e7f04dbf79b06ed2bd37e112458",
+  "name": "sleef",
+  "sha256": "a3d20bed697aaababfcb53ca2011486cf5e44e20855142c170fa0826df5f952c",
+  "size": 371925,
+  "subdir": "osx-arm64",
+  "timestamp": 1632728739626,
+  "version": "3.5.1",
+  "fn": "sleef-3.5.1-h156473d_2.tar.bz2",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/sleef-3.5.1-h156473d_2.tar.bz2",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/sleef-3.5.1-h156473d_2",
+  "files": [
+    "include/sleef.h",
+    "include/sleefdft.h",
+    "lib/libsleef.3.5.1.dylib",
+    "lib/libsleef.3.dylib",
+    "lib/libsleef.dylib",
+    "lib/libsleefdft.3.5.1.dylib",
+    "lib/libsleefdft.3.dylib",
+    "lib/libsleefdft.dylib",
+    "lib/pkgconfig/sleef.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/sleef.h",
+        "path_type": "hardlink",
+        "sha256": "5db54bf1a8aa4d29bcbfef6cab820d07f004a89fd80b71e9136c737124d86155",
+        "sha256_in_prefix": "5db54bf1a8aa4d29bcbfef6cab820d07f004a89fd80b71e9136c737124d86155",
+        "size_in_bytes": 146909
+      },
+      {
+        "_path": "include/sleefdft.h",
+        "path_type": "hardlink",
+        "sha256": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "sha256_in_prefix": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "lib/libsleef.3.5.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "sha256_in_prefix": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleef.3.dylib",
+        "path_type": "softlink",
+        "sha256": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "sha256_in_prefix": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleef.dylib",
+        "path_type": "softlink",
+        "sha256": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "sha256_in_prefix": "89f4adb592ed20a4c691b0b3f8417737c2fd5b99b452a6662b4c8b827b8e1a0d",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleefdft.3.5.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "sha256_in_prefix": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "size_in_bytes": 1710288
+      },
+      {
+        "_path": "lib/libsleefdft.3.dylib",
+        "path_type": "softlink",
+        "sha256": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "sha256_in_prefix": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "size_in_bytes": 1710288
+      },
+      {
+        "_path": "lib/libsleefdft.dylib",
+        "path_type": "softlink",
+        "sha256": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "sha256_in_prefix": "c5221682674725ba3afad69dee73481581c4c0f5dc11462a013703f430665247",
+        "size_in_bytes": 1710288
+      },
+      {
+        "_path": "lib/pkgconfig/sleef.pc",
+        "path_type": "hardlink",
+        "sha256": "d5eafa11182af2586042551dbdd99c14752e809d840cb8f3a7661d337b0e0219",
+        "sha256_in_prefix": "828e6c4fa5715cceae3551d38a186c265f379a8ea42a28cc241579557ed91285",
+        "size_in_bytes": 382
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

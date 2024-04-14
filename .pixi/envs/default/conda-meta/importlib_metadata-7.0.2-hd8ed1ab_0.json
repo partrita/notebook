@@ -1,0 +1,28 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "importlib-metadata >=7.0.2,<7.0.3.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "d11132727a247f2c1998779a2af743a1",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "sha256": "b250e6a3e741b762bb2caf05119feb6245cb41b468542e5a9263cd01671098f7",
+  "size": 9439,
+  "subdir": "noarch",
+  "timestamp": 1709821278370,
+  "version": "7.0.2",
+  "fn": "importlib_metadata-7.0.2-hd8ed1ab_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importlib_metadata-7.0.2-hd8ed1ab_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/importlib_metadata-7.0.2-hd8ed1ab_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": null,
+  "requested_spec": null
+}

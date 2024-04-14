@@ -1,0 +1,1094 @@
+{
+  "build": "hfb9b341_2",
+  "build_number": 2,
+  "constrains": [
+    "libgoogle-cloud 2.17.0 *_2"
+  ],
+  "depends": [
+    "libabseil * cxx17*",
+    "libabseil >=20230802.1,<20230803.0a0",
+    "libcurl >=8.5.0,<9.0a0",
+    "libcxx >=15",
+    "libgrpc >=1.60.0,<1.61.0a0",
+    "libprotobuf >=4.25.1,<4.25.2.0a0",
+    "openssl >=3.2.0,<4.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "227c41bcb5c9318db0f69a9141293067",
+  "name": "libgoogle-cloud",
+  "sha256": "c18014afd4d3236940b785470b773eb8d1abd1fb581fd9921ef7d1756d718252",
+  "size": 802670,
+  "subdir": "osx-arm64",
+  "timestamp": 1706050240755,
+  "version": "2.17.0",
+  "fn": "libgoogle-cloud-2.17.0-hfb9b341_2.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgoogle-cloud-2.17.0-hfb9b341_2.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/libgoogle-cloud-2.17.0-hfb9b341_2",
+  "files": [
+    "lib/libgoogle_cloud_cpp_api_annotations_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_annotations_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_auth_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_auth_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_backend_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_backend_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_billing_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_billing_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_client_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_client_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_config_change_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_config_change_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_consumer_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_consumer_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_context_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_context_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_control_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_control_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_distribution_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_distribution_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_documentation_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_documentation_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_endpoint_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_endpoint_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_error_reason_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_error_reason_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_field_behavior_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_field_behavior_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_http_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_http_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_httpbody_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_httpbody_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_label_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_label_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_launch_stage_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_launch_stage_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_log_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_log_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_logging_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_logging_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_metric_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_metric_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_monitored_resource_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_monitored_resource_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_monitoring_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_monitoring_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_policy_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_policy_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_quota_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_quota_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_resource_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_resource_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_routing_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_routing_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_service_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_service_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_source_info_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_source_info_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_system_parameter_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_system_parameter_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_usage_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_usage_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_api_visibility_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_api_visibility_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_common_common_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_common_common_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_extended_operations_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_extended_operations_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_common.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_common.2.dylib",
+    "lib/libgoogle_cloud_cpp_grpc_utils.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_grpc_utils.2.dylib",
+    "lib/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_options_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_options_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_policy_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_iam_v1_policy_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_longrunning_operations_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_longrunning_operations_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_rest_internal.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rest_internal.2.dylib",
+    "lib/libgoogle_cloud_cpp_rest_protobuf_internal.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rest_protobuf_internal.2.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_code_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_code_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_error_details_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_error_details_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_status_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_rpc_status_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_calendar_period_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_calendar_period_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_color_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_color_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_date_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_date_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_datetime_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_datetime_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_dayofweek_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_dayofweek_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_decimal_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_decimal_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_expr_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_expr_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_fraction_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_fraction_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_interval_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_interval_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_latlng_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_latlng_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_localized_text_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_localized_text_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_money_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_money_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_month_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_month_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_phone_number_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_phone_number_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_postal_address_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_postal_address_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_quaternion_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_quaternion_protos.2.dylib",
+    "lib/libgoogle_cloud_cpp_type_timeofday_protos.2.17.0.dylib",
+    "lib/libgoogle_cloud_cpp_type_timeofday_protos.2.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_annotations_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "be73ae57587c00da7233bc5f11e6b0d216b99ce7381db57e9c30173d8109e265",
+        "sha256_in_prefix": "be73ae57587c00da7233bc5f11e6b0d216b99ce7381db57e9c30173d8109e265",
+        "size_in_bytes": 52848
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_annotations_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "be73ae57587c00da7233bc5f11e6b0d216b99ce7381db57e9c30173d8109e265",
+        "sha256_in_prefix": "be73ae57587c00da7233bc5f11e6b0d216b99ce7381db57e9c30173d8109e265",
+        "size_in_bytes": 52848
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_auth_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "4f57400a9c97562aa80b39edf07296b83a56a4722d3d93e7392500fcaa7ea881",
+        "sha256_in_prefix": "4f57400a9c97562aa80b39edf07296b83a56a4722d3d93e7392500fcaa7ea881",
+        "size_in_bytes": 93216
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_auth_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "4f57400a9c97562aa80b39edf07296b83a56a4722d3d93e7392500fcaa7ea881",
+        "sha256_in_prefix": "4f57400a9c97562aa80b39edf07296b83a56a4722d3d93e7392500fcaa7ea881",
+        "size_in_bytes": 93216
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_backend_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "bdce8b336a0b86ca26067a1492c7ec0a00dfcdcc742122f77a6bd3e34ef00f5e",
+        "sha256_in_prefix": "bdce8b336a0b86ca26067a1492c7ec0a00dfcdcc742122f77a6bd3e34ef00f5e",
+        "size_in_bytes": 126848
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_backend_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "bdce8b336a0b86ca26067a1492c7ec0a00dfcdcc742122f77a6bd3e34ef00f5e",
+        "sha256_in_prefix": "bdce8b336a0b86ca26067a1492c7ec0a00dfcdcc742122f77a6bd3e34ef00f5e",
+        "size_in_bytes": 126848
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_billing_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "d9a9e713cf87d74c07d1bbf227b7b5a9d12b0f070cea52a9f79f57b26da0144c",
+        "sha256_in_prefix": "d9a9e713cf87d74c07d1bbf227b7b5a9d12b0f070cea52a9f79f57b26da0144c",
+        "size_in_bytes": 65376
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_billing_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "d9a9e713cf87d74c07d1bbf227b7b5a9d12b0f070cea52a9f79f57b26da0144c",
+        "sha256_in_prefix": "d9a9e713cf87d74c07d1bbf227b7b5a9d12b0f070cea52a9f79f57b26da0144c",
+        "size_in_bytes": 65376
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_client_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "50c1d2f669d5d31a201d097babe14191dbc3dc7b1bd5360575c40706511f4bba",
+        "sha256_in_prefix": "50c1d2f669d5d31a201d097babe14191dbc3dc7b1bd5360575c40706511f4bba",
+        "size_in_bytes": 226432
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_client_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "50c1d2f669d5d31a201d097babe14191dbc3dc7b1bd5360575c40706511f4bba",
+        "sha256_in_prefix": "50c1d2f669d5d31a201d097babe14191dbc3dc7b1bd5360575c40706511f4bba",
+        "size_in_bytes": 226432
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_config_change_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "86e99abc669e53ac1bd51712b6d4c1625413b26c880d708e3ccebae426e371b9",
+        "sha256_in_prefix": "86e99abc669e53ac1bd51712b6d4c1625413b26c880d708e3ccebae426e371b9",
+        "size_in_bytes": 65168
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_config_change_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "86e99abc669e53ac1bd51712b6d4c1625413b26c880d708e3ccebae426e371b9",
+        "sha256_in_prefix": "86e99abc669e53ac1bd51712b6d4c1625413b26c880d708e3ccebae426e371b9",
+        "size_in_bytes": 65168
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_consumer_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "c822baa58a13e89bfb5559e24e7d705675939ce97b28b841167ab66345e4625b",
+        "sha256_in_prefix": "c822baa58a13e89bfb5559e24e7d705675939ce97b28b841167ab66345e4625b",
+        "size_in_bytes": 65216
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_consumer_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "c822baa58a13e89bfb5559e24e7d705675939ce97b28b841167ab66345e4625b",
+        "sha256_in_prefix": "c822baa58a13e89bfb5559e24e7d705675939ce97b28b841167ab66345e4625b",
+        "size_in_bytes": 65216
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_context_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f7e09d1c85df25f40c62b02da8ac35d25ccaacd26c10a472db53fd13af57d677",
+        "sha256_in_prefix": "f7e09d1c85df25f40c62b02da8ac35d25ccaacd26c10a472db53fd13af57d677",
+        "size_in_bytes": 81840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_context_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f7e09d1c85df25f40c62b02da8ac35d25ccaacd26c10a472db53fd13af57d677",
+        "sha256_in_prefix": "f7e09d1c85df25f40c62b02da8ac35d25ccaacd26c10a472db53fd13af57d677",
+        "size_in_bytes": 81840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_control_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "81ebbb858266a44cc1f7333f00cb7192e22851b4cca38e6c51c062adcfc67a28",
+        "sha256_in_prefix": "81ebbb858266a44cc1f7333f00cb7192e22851b4cca38e6c51c062adcfc67a28",
+        "size_in_bytes": 62208
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_control_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "81ebbb858266a44cc1f7333f00cb7192e22851b4cca38e6c51c062adcfc67a28",
+        "sha256_in_prefix": "81ebbb858266a44cc1f7333f00cb7192e22851b4cca38e6c51c062adcfc67a28",
+        "size_in_bytes": 62208
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_distribution_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0d136dda982a229a135d1937e03c22cf13a45dc21ceee37455503b8d84af0282",
+        "sha256_in_prefix": "0d136dda982a229a135d1937e03c22cf13a45dc21ceee37455503b8d84af0282",
+        "size_in_bytes": 102672
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_distribution_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "0d136dda982a229a135d1937e03c22cf13a45dc21ceee37455503b8d84af0282",
+        "sha256_in_prefix": "0d136dda982a229a135d1937e03c22cf13a45dc21ceee37455503b8d84af0282",
+        "size_in_bytes": 102672
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_documentation_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "fda4e2bb8b191d11da4881372343d0edf4c11ea8ee62e4be8e80c7898429775d",
+        "sha256_in_prefix": "fda4e2bb8b191d11da4881372343d0edf4c11ea8ee62e4be8e80c7898429775d",
+        "size_in_bytes": 83680
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_documentation_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "fda4e2bb8b191d11da4881372343d0edf4c11ea8ee62e4be8e80c7898429775d",
+        "sha256_in_prefix": "fda4e2bb8b191d11da4881372343d0edf4c11ea8ee62e4be8e80c7898429775d",
+        "size_in_bytes": 83680
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_endpoint_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "6c22c7b530293971d85cdfaa1efb4f831adff7dee9c441e20f35166510273e30",
+        "sha256_in_prefix": "6c22c7b530293971d85cdfaa1efb4f831adff7dee9c441e20f35166510273e30",
+        "size_in_bytes": 61840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_endpoint_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "6c22c7b530293971d85cdfaa1efb4f831adff7dee9c441e20f35166510273e30",
+        "sha256_in_prefix": "6c22c7b530293971d85cdfaa1efb4f831adff7dee9c441e20f35166510273e30",
+        "size_in_bytes": 61840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_error_reason_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "34deb07a3e3dae608cd6aba2a38ec00813aa07d668e58767b311fccc75133e6e",
+        "sha256_in_prefix": "34deb07a3e3dae608cd6aba2a38ec00813aa07d668e58767b311fccc75133e6e",
+        "size_in_bytes": 52480
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_error_reason_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "34deb07a3e3dae608cd6aba2a38ec00813aa07d668e58767b311fccc75133e6e",
+        "sha256_in_prefix": "34deb07a3e3dae608cd6aba2a38ec00813aa07d668e58767b311fccc75133e6e",
+        "size_in_bytes": 52480
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_field_behavior_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "68799f6d2f2181cbf47075a2b04138460700dd12186c0b0fe3d38c98233280ad",
+        "sha256_in_prefix": "68799f6d2f2181cbf47075a2b04138460700dd12186c0b0fe3d38c98233280ad",
+        "size_in_bytes": 53184
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_field_behavior_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "68799f6d2f2181cbf47075a2b04138460700dd12186c0b0fe3d38c98233280ad",
+        "sha256_in_prefix": "68799f6d2f2181cbf47075a2b04138460700dd12186c0b0fe3d38c98233280ad",
+        "size_in_bytes": 53184
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_http_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0245b23d3e551df553b3a8745e1ed0507a39c156a8a0dd58c2dffe99d293db70",
+        "sha256_in_prefix": "0245b23d3e551df553b3a8745e1ed0507a39c156a8a0dd58c2dffe99d293db70",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_http_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "0245b23d3e551df553b3a8745e1ed0507a39c156a8a0dd58c2dffe99d293db70",
+        "sha256_in_prefix": "0245b23d3e551df553b3a8745e1ed0507a39c156a8a0dd58c2dffe99d293db70",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_httpbody_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "b7be409466fc59c4bec876e44bab3fe1fdedb64aacc6f8a87c42fbe875873e0d",
+        "sha256_in_prefix": "b7be409466fc59c4bec876e44bab3fe1fdedb64aacc6f8a87c42fbe875873e0d",
+        "size_in_bytes": 62688
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_httpbody_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "b7be409466fc59c4bec876e44bab3fe1fdedb64aacc6f8a87c42fbe875873e0d",
+        "sha256_in_prefix": "b7be409466fc59c4bec876e44bab3fe1fdedb64aacc6f8a87c42fbe875873e0d",
+        "size_in_bytes": 62688
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_label_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f8a450cdd9eadb2a0bdc3f5f519fa2629afa2b5d92405ebf09e0bfd29f18bf8f",
+        "sha256_in_prefix": "f8a450cdd9eadb2a0bdc3f5f519fa2629afa2b5d92405ebf09e0bfd29f18bf8f",
+        "size_in_bytes": 61440
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_label_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f8a450cdd9eadb2a0bdc3f5f519fa2629afa2b5d92405ebf09e0bfd29f18bf8f",
+        "sha256_in_prefix": "f8a450cdd9eadb2a0bdc3f5f519fa2629afa2b5d92405ebf09e0bfd29f18bf8f",
+        "size_in_bytes": 61440
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_launch_stage_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2d766cebd53078f5a256b0d744c1311b7c7294ad36cefe39b67dd252f83dad34",
+        "sha256_in_prefix": "2d766cebd53078f5a256b0d744c1311b7c7294ad36cefe39b67dd252f83dad34",
+        "size_in_bytes": 52480
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_launch_stage_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "2d766cebd53078f5a256b0d744c1311b7c7294ad36cefe39b67dd252f83dad34",
+        "sha256_in_prefix": "2d766cebd53078f5a256b0d744c1311b7c7294ad36cefe39b67dd252f83dad34",
+        "size_in_bytes": 52480
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_log_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "cbb1cb17e0c233e9b9efda9220f2502023185e413bf8aeea25ea47edb15ad0c4",
+        "sha256_in_prefix": "cbb1cb17e0c233e9b9efda9220f2502023185e413bf8aeea25ea47edb15ad0c4",
+        "size_in_bytes": 62288
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_log_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "cbb1cb17e0c233e9b9efda9220f2502023185e413bf8aeea25ea47edb15ad0c4",
+        "sha256_in_prefix": "cbb1cb17e0c233e9b9efda9220f2502023185e413bf8aeea25ea47edb15ad0c4",
+        "size_in_bytes": 62288
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_logging_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "c04ed54c654d40d7c76b8146c7baab2fcda99fbf01a3a2a67fc62b7b73e73e34",
+        "sha256_in_prefix": "c04ed54c654d40d7c76b8146c7baab2fcda99fbf01a3a2a67fc62b7b73e73e34",
+        "size_in_bytes": 65904
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_logging_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "c04ed54c654d40d7c76b8146c7baab2fcda99fbf01a3a2a67fc62b7b73e73e34",
+        "sha256_in_prefix": "c04ed54c654d40d7c76b8146c7baab2fcda99fbf01a3a2a67fc62b7b73e73e34",
+        "size_in_bytes": 65904
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_metric_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "cd82d64c436d6c220e711738157ae75c8d35a8eb0bdb6e96053c0bb381d02d94",
+        "sha256_in_prefix": "cd82d64c436d6c220e711738157ae75c8d35a8eb0bdb6e96053c0bb381d02d94",
+        "size_in_bytes": 132864
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_metric_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "cd82d64c436d6c220e711738157ae75c8d35a8eb0bdb6e96053c0bb381d02d94",
+        "sha256_in_prefix": "cd82d64c436d6c220e711738157ae75c8d35a8eb0bdb6e96053c0bb381d02d94",
+        "size_in_bytes": 132864
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_monitored_resource_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "b16b0a1f418f4e1ce2089a7b1d9de1bb0f482bd20b56c45ad44d5084a2107ade",
+        "sha256_in_prefix": "b16b0a1f418f4e1ce2089a7b1d9de1bb0f482bd20b56c45ad44d5084a2107ade",
+        "size_in_bytes": 136768
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_monitored_resource_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "b16b0a1f418f4e1ce2089a7b1d9de1bb0f482bd20b56c45ad44d5084a2107ade",
+        "sha256_in_prefix": "b16b0a1f418f4e1ce2089a7b1d9de1bb0f482bd20b56c45ad44d5084a2107ade",
+        "size_in_bytes": 136768
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_monitoring_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "44c7a30b56ae55378cd2a237d88da3526bb974efc0697484e2ea6da52bc989d0",
+        "sha256_in_prefix": "44c7a30b56ae55378cd2a237d88da3526bb974efc0697484e2ea6da52bc989d0",
+        "size_in_bytes": 65936
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_monitoring_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "44c7a30b56ae55378cd2a237d88da3526bb974efc0697484e2ea6da52bc989d0",
+        "sha256_in_prefix": "44c7a30b56ae55378cd2a237d88da3526bb974efc0697484e2ea6da52bc989d0",
+        "size_in_bytes": 65936
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_policy_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "8cfbb8113054d08d692cb5b31ab9cb17a394eef68df2b9b499792029329b73c0",
+        "sha256_in_prefix": "8cfbb8113054d08d692cb5b31ab9cb17a394eef68df2b9b499792029329b73c0",
+        "size_in_bytes": 65296
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_policy_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "8cfbb8113054d08d692cb5b31ab9cb17a394eef68df2b9b499792029329b73c0",
+        "sha256_in_prefix": "8cfbb8113054d08d692cb5b31ab9cb17a394eef68df2b9b499792029329b73c0",
+        "size_in_bytes": 65296
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_quota_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "35e9a3638dea3912fa408c5972dba221f3b37530a6cfe68ba64b11746d9e6dcc",
+        "sha256_in_prefix": "35e9a3638dea3912fa408c5972dba221f3b37530a6cfe68ba64b11746d9e6dcc",
+        "size_in_bytes": 132176
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_quota_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "35e9a3638dea3912fa408c5972dba221f3b37530a6cfe68ba64b11746d9e6dcc",
+        "sha256_in_prefix": "35e9a3638dea3912fa408c5972dba221f3b37530a6cfe68ba64b11746d9e6dcc",
+        "size_in_bytes": 132176
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_resource_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "dc48ee47444462347817b4ed7afaaf72b1fd3940e11d56b89fe968467cbcfa2e",
+        "sha256_in_prefix": "dc48ee47444462347817b4ed7afaaf72b1fd3940e11d56b89fe968467cbcfa2e",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_resource_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "dc48ee47444462347817b4ed7afaaf72b1fd3940e11d56b89fe968467cbcfa2e",
+        "sha256_in_prefix": "dc48ee47444462347817b4ed7afaaf72b1fd3940e11d56b89fe968467cbcfa2e",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_routing_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "4bf9f61de6222a885be520ec3323e9cf2923d4c697f7b9c9f04cb4c233d42cc0",
+        "sha256_in_prefix": "4bf9f61de6222a885be520ec3323e9cf2923d4c697f7b9c9f04cb4c233d42cc0",
+        "size_in_bytes": 64640
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_routing_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "4bf9f61de6222a885be520ec3323e9cf2923d4c697f7b9c9f04cb4c233d42cc0",
+        "sha256_in_prefix": "4bf9f61de6222a885be520ec3323e9cf2923d4c697f7b9c9f04cb4c233d42cc0",
+        "size_in_bytes": 64640
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_service_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f89578b8c1f7a229d29ba6a172383423e76dc3d679564152dcc0083badd46bed",
+        "sha256_in_prefix": "f89578b8c1f7a229d29ba6a172383423e76dc3d679564152dcc0083badd46bed",
+        "size_in_bytes": 122096
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_service_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f89578b8c1f7a229d29ba6a172383423e76dc3d679564152dcc0083badd46bed",
+        "sha256_in_prefix": "f89578b8c1f7a229d29ba6a172383423e76dc3d679564152dcc0083badd46bed",
+        "size_in_bytes": 122096
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_source_info_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "cd238789a51285ca0e0cec7030052c6ea05d3bfd7eec631f3a8d9352a27e6ce8",
+        "sha256_in_prefix": "cd238789a51285ca0e0cec7030052c6ea05d3bfd7eec631f3a8d9352a27e6ce8",
+        "size_in_bytes": 60304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_source_info_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "cd238789a51285ca0e0cec7030052c6ea05d3bfd7eec631f3a8d9352a27e6ce8",
+        "sha256_in_prefix": "cd238789a51285ca0e0cec7030052c6ea05d3bfd7eec631f3a8d9352a27e6ce8",
+        "size_in_bytes": 60304
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_system_parameter_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "99fa424abba8013cfa140b60fa679133601261437090a51bacd594ed67e4f09b",
+        "sha256_in_prefix": "99fa424abba8013cfa140b60fa679133601261437090a51bacd594ed67e4f09b",
+        "size_in_bytes": 67600
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_system_parameter_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "99fa424abba8013cfa140b60fa679133601261437090a51bacd594ed67e4f09b",
+        "sha256_in_prefix": "99fa424abba8013cfa140b60fa679133601261437090a51bacd594ed67e4f09b",
+        "size_in_bytes": 67600
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_usage_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "837c71cdca23a20e887516fa89a72d86d1721e5097baad033f35897fab775b13",
+        "sha256_in_prefix": "837c71cdca23a20e887516fa89a72d86d1721e5097baad033f35897fab775b13",
+        "size_in_bytes": 65744
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_usage_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "837c71cdca23a20e887516fa89a72d86d1721e5097baad033f35897fab775b13",
+        "sha256_in_prefix": "837c71cdca23a20e887516fa89a72d86d1721e5097baad033f35897fab775b13",
+        "size_in_bytes": 65744
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_visibility_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "3dbb99832ff892aef0f0bd295302ca9bbaa2aa7dbef5abea233ff8e2a809e7c2",
+        "sha256_in_prefix": "3dbb99832ff892aef0f0bd295302ca9bbaa2aa7dbef5abea233ff8e2a809e7c2",
+        "size_in_bytes": 65664
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_api_visibility_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "3dbb99832ff892aef0f0bd295302ca9bbaa2aa7dbef5abea233ff8e2a809e7c2",
+        "sha256_in_prefix": "3dbb99832ff892aef0f0bd295302ca9bbaa2aa7dbef5abea233ff8e2a809e7c2",
+        "size_in_bytes": 65664
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_common_common_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "68ae1fb437617955a6962330a91428003688eb7c26148d4631a40e9e392944f1",
+        "sha256_in_prefix": "68ae1fb437617955a6962330a91428003688eb7c26148d4631a40e9e392944f1",
+        "size_in_bytes": 63856
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_common_common_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "68ae1fb437617955a6962330a91428003688eb7c26148d4631a40e9e392944f1",
+        "sha256_in_prefix": "68ae1fb437617955a6962330a91428003688eb7c26148d4631a40e9e392944f1",
+        "size_in_bytes": 63856
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_extended_operations_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "48d589b41a8b2389f7e8454b58e2e73ef81593f3089e5dd2dda510e0251d23d8",
+        "sha256_in_prefix": "48d589b41a8b2389f7e8454b58e2e73ef81593f3089e5dd2dda510e0251d23d8",
+        "size_in_bytes": 54352
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_extended_operations_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "48d589b41a8b2389f7e8454b58e2e73ef81593f3089e5dd2dda510e0251d23d8",
+        "sha256_in_prefix": "48d589b41a8b2389f7e8454b58e2e73ef81593f3089e5dd2dda510e0251d23d8",
+        "size_in_bytes": 54352
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2a43a7fee22fa5e1191fa97118105cf8e329e1c2d6b10356f2069c6e0c4ecb53",
+        "sha256_in_prefix": "2a43a7fee22fa5e1191fa97118105cf8e329e1c2d6b10356f2069c6e0c4ecb53",
+        "size_in_bytes": 93440
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_cloud_orgpolicy_v1_orgpolicy_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "2a43a7fee22fa5e1191fa97118105cf8e329e1c2d6b10356f2069c6e0c4ecb53",
+        "sha256_in_prefix": "2a43a7fee22fa5e1191fa97118105cf8e329e1c2d6b10356f2069c6e0c4ecb53",
+        "size_in_bytes": 93440
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_common.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "3311612e169217aaffd956c658a30b436a329e160ea02815a4ba369b2eaaa413",
+        "sha256_in_prefix": "3311612e169217aaffd956c658a30b436a329e160ea02815a4ba369b2eaaa413",
+        "size_in_bytes": 423584
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_common.2.dylib",
+        "path_type": "softlink",
+        "sha256": "3311612e169217aaffd956c658a30b436a329e160ea02815a4ba369b2eaaa413",
+        "sha256_in_prefix": "3311612e169217aaffd956c658a30b436a329e160ea02815a4ba369b2eaaa413",
+        "size_in_bytes": 423584
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_grpc_utils.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "cb4c5112e945186981972fbe6771ed088afdf9538b9b889e635f7f81c6308b96",
+        "sha256_in_prefix": "cb4c5112e945186981972fbe6771ed088afdf9538b9b889e635f7f81c6308b96",
+        "size_in_bytes": 524800
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_grpc_utils.2.dylib",
+        "path_type": "softlink",
+        "sha256": "cb4c5112e945186981972fbe6771ed088afdf9538b9b889e635f7f81c6308b96",
+        "sha256_in_prefix": "cb4c5112e945186981972fbe6771ed088afdf9538b9b889e635f7f81c6308b96",
+        "size_in_bytes": 524800
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "d952065d8434573cf222dd1328016bdcf039a62677dccef4060b346788a541b2",
+        "sha256_in_prefix": "d952065d8434573cf222dd1328016bdcf039a62677dccef4060b346788a541b2",
+        "size_in_bytes": 122400
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_credentials_v1_common_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "d952065d8434573cf222dd1328016bdcf039a62677dccef4060b346788a541b2",
+        "sha256_in_prefix": "d952065d8434573cf222dd1328016bdcf039a62677dccef4060b346788a541b2",
+        "size_in_bytes": 122400
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "75e086cef8622b491f7d549d632affdc01ee890cb2f3e442463031affba7a989",
+        "sha256_in_prefix": "75e086cef8622b491f7d549d632affdc01ee890cb2f3e442463031affba7a989",
+        "size_in_bytes": 233360
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "75e086cef8622b491f7d549d632affdc01ee890cb2f3e442463031affba7a989",
+        "sha256_in_prefix": "75e086cef8622b491f7d549d632affdc01ee890cb2f3e442463031affba7a989",
+        "size_in_bytes": 233360
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "01f738edfdd22105716b7d21a3f3ab0cb6da10d2b00c73b9bee5a4c450566469",
+        "sha256_in_prefix": "01f738edfdd22105716b7d21a3f3ab0cb6da10d2b00c73b9bee5a4c450566469",
+        "size_in_bytes": 257088
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_iam_policy_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "01f738edfdd22105716b7d21a3f3ab0cb6da10d2b00c73b9bee5a4c450566469",
+        "sha256_in_prefix": "01f738edfdd22105716b7d21a3f3ab0cb6da10d2b00c73b9bee5a4c450566469",
+        "size_in_bytes": 257088
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_options_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "3315d666d99c5bb5eed69765bee378028af635944586a8fad2b5b28ffc0703ed",
+        "sha256_in_prefix": "3315d666d99c5bb5eed69765bee378028af635944586a8fad2b5b28ffc0703ed",
+        "size_in_bytes": 58864
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_options_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "3315d666d99c5bb5eed69765bee378028af635944586a8fad2b5b28ffc0703ed",
+        "sha256_in_prefix": "3315d666d99c5bb5eed69765bee378028af635944586a8fad2b5b28ffc0703ed",
+        "size_in_bytes": 58864
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_policy_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "61210dce1a70969104f883ea33f66eb5b891e644c52410cc7eb8917fc1f725d9",
+        "sha256_in_prefix": "61210dce1a70969104f883ea33f66eb5b891e644c52410cc7eb8917fc1f725d9",
+        "size_in_bytes": 100224
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_iam_v1_policy_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "61210dce1a70969104f883ea33f66eb5b891e644c52410cc7eb8917fc1f725d9",
+        "sha256_in_prefix": "61210dce1a70969104f883ea33f66eb5b891e644c52410cc7eb8917fc1f725d9",
+        "size_in_bytes": 100224
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_longrunning_operations_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "88c258416209d00607fb6687d29016fa737f7d1d5b375d79b6d5b9e6e54cf5e5",
+        "sha256_in_prefix": "88c258416209d00607fb6687d29016fa737f7d1d5b375d79b6d5b9e6e54cf5e5",
+        "size_in_bytes": 287056
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_longrunning_operations_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "88c258416209d00607fb6687d29016fa737f7d1d5b375d79b6d5b9e6e54cf5e5",
+        "sha256_in_prefix": "88c258416209d00607fb6687d29016fa737f7d1d5b375d79b6d5b9e6e54cf5e5",
+        "size_in_bytes": 287056
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rest_internal.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0b2b3ad2e645ec6150f460e12c69a894c4847341c503b3a8cb67816254be3e91",
+        "sha256_in_prefix": "0b2b3ad2e645ec6150f460e12c69a894c4847341c503b3a8cb67816254be3e91",
+        "size_in_bytes": 807328
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rest_internal.2.dylib",
+        "path_type": "softlink",
+        "sha256": "0b2b3ad2e645ec6150f460e12c69a894c4847341c503b3a8cb67816254be3e91",
+        "sha256_in_prefix": "0b2b3ad2e645ec6150f460e12c69a894c4847341c503b3a8cb67816254be3e91",
+        "size_in_bytes": 807328
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rest_protobuf_internal.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f95eb1dd5a6d166b32b4036591c4ec7b6696c8f110ea2d86d893f51fe01c998c",
+        "sha256_in_prefix": "f95eb1dd5a6d166b32b4036591c4ec7b6696c8f110ea2d86d893f51fe01c998c",
+        "size_in_bytes": 242464
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rest_protobuf_internal.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f95eb1dd5a6d166b32b4036591c4ec7b6696c8f110ea2d86d893f51fe01c998c",
+        "sha256_in_prefix": "f95eb1dd5a6d166b32b4036591c4ec7b6696c8f110ea2d86d893f51fe01c998c",
+        "size_in_bytes": 242464
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_code_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2c4a72204bbbae6afc63da29afe5ba86fd2ade1fadddaf5a3525d1ebc01a3882",
+        "sha256_in_prefix": "2c4a72204bbbae6afc63da29afe5ba86fd2ade1fadddaf5a3525d1ebc01a3882",
+        "size_in_bytes": 52336
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_code_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "2c4a72204bbbae6afc63da29afe5ba86fd2ade1fadddaf5a3525d1ebc01a3882",
+        "sha256_in_prefix": "2c4a72204bbbae6afc63da29afe5ba86fd2ade1fadddaf5a3525d1ebc01a3882",
+        "size_in_bytes": 52336
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "9f69fd3af10262e1d54137cf4e44bce148543133387d18e3b21b8867658d748c",
+        "sha256_in_prefix": "9f69fd3af10262e1d54137cf4e44bce148543133387d18e3b21b8867658d748c",
+        "size_in_bytes": 223376
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_context_attribute_context_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "9f69fd3af10262e1d54137cf4e44bce148543133387d18e3b21b8867658d748c",
+        "sha256_in_prefix": "9f69fd3af10262e1d54137cf4e44bce148543133387d18e3b21b8867658d748c",
+        "size_in_bytes": 223376
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_error_details_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "3489073eb621d6806e6e9a087c9401b8aaf40eb97d4b1f313587cac7e6e6c5e2",
+        "sha256_in_prefix": "3489073eb621d6806e6e9a087c9401b8aaf40eb97d4b1f313587cac7e6e6c5e2",
+        "size_in_bytes": 174624
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_error_details_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "3489073eb621d6806e6e9a087c9401b8aaf40eb97d4b1f313587cac7e6e6c5e2",
+        "sha256_in_prefix": "3489073eb621d6806e6e9a087c9401b8aaf40eb97d4b1f313587cac7e6e6c5e2",
+        "size_in_bytes": 174624
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_status_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f145726926c2a9c7ace46833ef95c0a40811b3ca00cc1e23646c52a2ff27394e",
+        "sha256_in_prefix": "f145726926c2a9c7ace46833ef95c0a40811b3ca00cc1e23646c52a2ff27394e",
+        "size_in_bytes": 62944
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_rpc_status_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f145726926c2a9c7ace46833ef95c0a40811b3ca00cc1e23646c52a2ff27394e",
+        "sha256_in_prefix": "f145726926c2a9c7ace46833ef95c0a40811b3ca00cc1e23646c52a2ff27394e",
+        "size_in_bytes": 62944
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_calendar_period_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "aaa78d6027b9796971b07b7998ebe1776475da2df857aba389cab7ebf4ea584b",
+        "sha256_in_prefix": "aaa78d6027b9796971b07b7998ebe1776475da2df857aba389cab7ebf4ea584b",
+        "size_in_bytes": 52544
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_calendar_period_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "aaa78d6027b9796971b07b7998ebe1776475da2df857aba389cab7ebf4ea584b",
+        "sha256_in_prefix": "aaa78d6027b9796971b07b7998ebe1776475da2df857aba389cab7ebf4ea584b",
+        "size_in_bytes": 52544
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_color_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0e0a99cb7dcceebd4b5ccf5e497a8739f6141bc80e2dec7329ace2a66c62b551",
+        "sha256_in_prefix": "0e0a99cb7dcceebd4b5ccf5e497a8739f6141bc80e2dec7329ace2a66c62b551",
+        "size_in_bytes": 60256
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_color_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "0e0a99cb7dcceebd4b5ccf5e497a8739f6141bc80e2dec7329ace2a66c62b551",
+        "sha256_in_prefix": "0e0a99cb7dcceebd4b5ccf5e497a8739f6141bc80e2dec7329ace2a66c62b551",
+        "size_in_bytes": 60256
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_date_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "556ac57c83e3433e127922fdb89a14e33efcffebbfde21aa8ad20e61175803cf",
+        "sha256_in_prefix": "556ac57c83e3433e127922fdb89a14e33efcffebbfde21aa8ad20e61175803cf",
+        "size_in_bytes": 58928
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_date_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "556ac57c83e3433e127922fdb89a14e33efcffebbfde21aa8ad20e61175803cf",
+        "sha256_in_prefix": "556ac57c83e3433e127922fdb89a14e33efcffebbfde21aa8ad20e61175803cf",
+        "size_in_bytes": 58928
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_datetime_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "659f54c26a16ab40c212b798129094c99dbcdbfd74192bc68da4da0ce020a5ca",
+        "sha256_in_prefix": "659f54c26a16ab40c212b798129094c99dbcdbfd74192bc68da4da0ce020a5ca",
+        "size_in_bytes": 66560
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_datetime_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "659f54c26a16ab40c212b798129094c99dbcdbfd74192bc68da4da0ce020a5ca",
+        "sha256_in_prefix": "659f54c26a16ab40c212b798129094c99dbcdbfd74192bc68da4da0ce020a5ca",
+        "size_in_bytes": 66560
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_dayofweek_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "51c0f630f3e903b0ea6ab2060baa18f7c719d42dddd90eb5550e92642fe8b25e",
+        "sha256_in_prefix": "51c0f630f3e903b0ea6ab2060baa18f7c719d42dddd90eb5550e92642fe8b25e",
+        "size_in_bytes": 52448
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_dayofweek_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "51c0f630f3e903b0ea6ab2060baa18f7c719d42dddd90eb5550e92642fe8b25e",
+        "sha256_in_prefix": "51c0f630f3e903b0ea6ab2060baa18f7c719d42dddd90eb5550e92642fe8b25e",
+        "size_in_bytes": 52448
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_decimal_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "b1f4cf511bde41bc032aa077e2e0bd36251d5a8a2e228c45d420e180335d8def",
+        "sha256_in_prefix": "b1f4cf511bde41bc032aa077e2e0bd36251d5a8a2e228c45d420e180335d8def",
+        "size_in_bytes": 59840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_decimal_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "b1f4cf511bde41bc032aa077e2e0bd36251d5a8a2e228c45d420e180335d8def",
+        "sha256_in_prefix": "b1f4cf511bde41bc032aa077e2e0bd36251d5a8a2e228c45d420e180335d8def",
+        "size_in_bytes": 59840
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_expr_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "854f30ec60ef49ed2dd8de0c68cd60c61e695ddf947cd21f6a7fbffeaf1e75d2",
+        "sha256_in_prefix": "854f30ec60ef49ed2dd8de0c68cd60c61e695ddf947cd21f6a7fbffeaf1e75d2",
+        "size_in_bytes": 59712
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_expr_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "854f30ec60ef49ed2dd8de0c68cd60c61e695ddf947cd21f6a7fbffeaf1e75d2",
+        "sha256_in_prefix": "854f30ec60ef49ed2dd8de0c68cd60c61e695ddf947cd21f6a7fbffeaf1e75d2",
+        "size_in_bytes": 59712
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_fraction_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "5de9958075ee892d82d464907d85f07bdf871286bb85cd32b83552f4f89ae4c8",
+        "sha256_in_prefix": "5de9958075ee892d82d464907d85f07bdf871286bb85cd32b83552f4f89ae4c8",
+        "size_in_bytes": 58640
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_fraction_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "5de9958075ee892d82d464907d85f07bdf871286bb85cd32b83552f4f89ae4c8",
+        "sha256_in_prefix": "5de9958075ee892d82d464907d85f07bdf871286bb85cd32b83552f4f89ae4c8",
+        "size_in_bytes": 58640
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_interval_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f5b96a9153f979dc4e0c327b65769bfde8620d07cdff484ef11ed3259881cc24",
+        "sha256_in_prefix": "f5b96a9153f979dc4e0c327b65769bfde8620d07cdff484ef11ed3259881cc24",
+        "size_in_bytes": 60096
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_interval_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f5b96a9153f979dc4e0c327b65769bfde8620d07cdff484ef11ed3259881cc24",
+        "sha256_in_prefix": "f5b96a9153f979dc4e0c327b65769bfde8620d07cdff484ef11ed3259881cc24",
+        "size_in_bytes": 60096
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_latlng_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "3eb0f19d30cb966ed862dd326877ddc934718601ad5dd09431f73c9678bff870",
+        "sha256_in_prefix": "3eb0f19d30cb966ed862dd326877ddc934718601ad5dd09431f73c9678bff870",
+        "size_in_bytes": 58288
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_latlng_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "3eb0f19d30cb966ed862dd326877ddc934718601ad5dd09431f73c9678bff870",
+        "sha256_in_prefix": "3eb0f19d30cb966ed862dd326877ddc934718601ad5dd09431f73c9678bff870",
+        "size_in_bytes": 58288
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_localized_text_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "ea44814d69c28dbe30adee3b094f1d8e75941dedb597d4378694feffbbacd07a",
+        "sha256_in_prefix": "ea44814d69c28dbe30adee3b094f1d8e75941dedb597d4378694feffbbacd07a",
+        "size_in_bytes": 60112
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_localized_text_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "ea44814d69c28dbe30adee3b094f1d8e75941dedb597d4378694feffbbacd07a",
+        "sha256_in_prefix": "ea44814d69c28dbe30adee3b094f1d8e75941dedb597d4378694feffbbacd07a",
+        "size_in_bytes": 60112
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_money_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2032e1a6c2c4bc91dac41c5df3cac9ac2d8d18e44dc3f7600bb4a3f56e989765",
+        "sha256_in_prefix": "2032e1a6c2c4bc91dac41c5df3cac9ac2d8d18e44dc3f7600bb4a3f56e989765",
+        "size_in_bytes": 61088
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_money_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "2032e1a6c2c4bc91dac41c5df3cac9ac2d8d18e44dc3f7600bb4a3f56e989765",
+        "sha256_in_prefix": "2032e1a6c2c4bc91dac41c5df3cac9ac2d8d18e44dc3f7600bb4a3f56e989765",
+        "size_in_bytes": 61088
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_month_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "63745b7e0a203e6aafba3ca5152c7086c3437ed8e0b2818fcca07b718e196333",
+        "sha256_in_prefix": "63745b7e0a203e6aafba3ca5152c7086c3437ed8e0b2818fcca07b718e196333",
+        "size_in_bytes": 52384
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_month_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "63745b7e0a203e6aafba3ca5152c7086c3437ed8e0b2818fcca07b718e196333",
+        "sha256_in_prefix": "63745b7e0a203e6aafba3ca5152c7086c3437ed8e0b2818fcca07b718e196333",
+        "size_in_bytes": 52384
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_phone_number_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0f56089a0ba7a2109c852ef28158cab2f1cdece12bb7e752c58c62de608ac87d",
+        "sha256_in_prefix": "0f56089a0ba7a2109c852ef28158cab2f1cdece12bb7e752c58c62de608ac87d",
+        "size_in_bytes": 64048
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_phone_number_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "0f56089a0ba7a2109c852ef28158cab2f1cdece12bb7e752c58c62de608ac87d",
+        "sha256_in_prefix": "0f56089a0ba7a2109c852ef28158cab2f1cdece12bb7e752c58c62de608ac87d",
+        "size_in_bytes": 64048
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_postal_address_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "91bbe2f5b831ea339dc86615ca0ff8247e190462354d17f3d9728101c21bac8a",
+        "sha256_in_prefix": "91bbe2f5b831ea339dc86615ca0ff8247e190462354d17f3d9728101c21bac8a",
+        "size_in_bytes": 62352
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_postal_address_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "91bbe2f5b831ea339dc86615ca0ff8247e190462354d17f3d9728101c21bac8a",
+        "sha256_in_prefix": "91bbe2f5b831ea339dc86615ca0ff8247e190462354d17f3d9728101c21bac8a",
+        "size_in_bytes": 62352
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_quaternion_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f1f0f2adf44e8621ee17a47defc3a69bce232a3bdaa3871cfc359e2fe01bdea2",
+        "sha256_in_prefix": "f1f0f2adf44e8621ee17a47defc3a69bce232a3bdaa3871cfc359e2fe01bdea2",
+        "size_in_bytes": 58560
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_quaternion_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "f1f0f2adf44e8621ee17a47defc3a69bce232a3bdaa3871cfc359e2fe01bdea2",
+        "sha256_in_prefix": "f1f0f2adf44e8621ee17a47defc3a69bce232a3bdaa3871cfc359e2fe01bdea2",
+        "size_in_bytes": 58560
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_timeofday_protos.2.17.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "496cfafb534b15f7099d9d1d328406dd1042b28da921036e4aa54e299eaf3603",
+        "sha256_in_prefix": "496cfafb534b15f7099d9d1d328406dd1042b28da921036e4aa54e299eaf3603",
+        "size_in_bytes": 58960
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_type_timeofday_protos.2.dylib",
+        "path_type": "softlink",
+        "sha256": "496cfafb534b15f7099d9d1d328406dd1042b28da921036e4aa54e299eaf3603",
+        "sha256_in_prefix": "496cfafb534b15f7099d9d1d328406dd1042b28da921036e4aa54e299eaf3603",
+        "size_in_bytes": 58960
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

@@ -1,0 +1,97 @@
+{
+  "build": "h2e851bb_6_cpu",
+  "build_number": 6,
+  "depends": [
+    "libarrow 15.0.0 h4f70cd7_6_cpu",
+    "libarrow-acero 15.0.0 hebf3989_6_cpu",
+    "libarrow-dataset 15.0.0 hebf3989_6_cpu",
+    "libcxx >=16",
+    "libprotobuf >=4.25.1,<4.25.2.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "69080ac45738a7010fd64c22e3e63ecb",
+  "name": "libarrow-substrait",
+  "sha256": "7ad9be32aec3f81ed782cf05be5cedd51632ad3d618625c0da8a5d17da363578",
+  "size": 440699,
+  "subdir": "osx-arm64",
+  "timestamp": 1708594371130,
+  "version": "15.0.0",
+  "fn": "libarrow-substrait-15.0.0-h2e851bb_6_cpu.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libarrow-substrait-15.0.0-h2e851bb_6_cpu.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/libarrow-substrait-15.0.0-h2e851bb_6_cpu",
+  "files": [
+    "lib/cmake/ArrowSubstrait/ArrowSubstraitConfig.cmake",
+    "lib/cmake/ArrowSubstrait/ArrowSubstraitConfigVersion.cmake",
+    "lib/cmake/ArrowSubstrait/ArrowSubstraitTargets-release.cmake",
+    "lib/cmake/ArrowSubstrait/ArrowSubstraitTargets.cmake",
+    "lib/libarrow_substrait.1500.0.0.dylib",
+    "lib/libarrow_substrait.1500.dylib",
+    "lib/libarrow_substrait.dylib",
+    "lib/pkgconfig/arrow-substrait.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/cmake/ArrowSubstrait/ArrowSubstraitConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "5d2faccc8080c15f44ef953965e7158e5e06a7a882caf87be3fc591ef5836c71",
+        "sha256_in_prefix": "5d2faccc8080c15f44ef953965e7158e5e06a7a882caf87be3fc591ef5836c71",
+        "size_in_bytes": 2443
+      },
+      {
+        "_path": "lib/cmake/ArrowSubstrait/ArrowSubstraitConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "6ed72c22943e0cb7d4de11c277a9e5894e60753132939416b66f0e526c11380f",
+        "sha256_in_prefix": "6ed72c22943e0cb7d4de11c277a9e5894e60753132939416b66f0e526c11380f",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/cmake/ArrowSubstrait/ArrowSubstraitTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "270f0c622f10c084dcfb720ec3c8e0fa34be99ba65c4ee1af6176a459e35bd0a",
+        "sha256_in_prefix": "270f0c622f10c084dcfb720ec3c8e0fa34be99ba65c4ee1af6176a459e35bd0a",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/cmake/ArrowSubstrait/ArrowSubstraitTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "49908827f7f868e02ba547be5bb991eb377841deeab6693b931028c42d2b1156",
+        "sha256_in_prefix": "49908827f7f868e02ba547be5bb991eb377841deeab6693b931028c42d2b1156",
+        "size_in_bytes": 4199
+      },
+      {
+        "_path": "lib/libarrow_substrait.1500.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "sha256_in_prefix": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "size_in_bytes": 2000672
+      },
+      {
+        "_path": "lib/libarrow_substrait.1500.dylib",
+        "path_type": "softlink",
+        "sha256": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "sha256_in_prefix": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "size_in_bytes": 2000672
+      },
+      {
+        "_path": "lib/libarrow_substrait.dylib",
+        "path_type": "softlink",
+        "sha256": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "sha256_in_prefix": "925b3466440f4f334f29434ff46af3c8266eeab0b8f302f381d4bc12aaac5e61",
+        "size_in_bytes": 2000672
+      },
+      {
+        "_path": "lib/pkgconfig/arrow-substrait.pc",
+        "path_type": "hardlink",
+        "sha256": "3e5a1de36eaebc53a9367edea005948e82860b230240662870c62b0ca1d9089c",
+        "sha256_in_prefix": "9b20095f9ad932fcf9a4711daf1926cd053f1be08e8c2273a3ec950d4757a8ea",
+        "size_in_bytes": 1104
+      }
+    ]
+  },
+  "link": null,
+  "requested_spec": null
+}

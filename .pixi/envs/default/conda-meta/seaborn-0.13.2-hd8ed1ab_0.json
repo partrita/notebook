@@ -1,0 +1,29 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "seaborn-base 0.13.2 pyhd8ed1ab_0",
+    "statsmodels >=0.12"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "fd31ebf5867914de597f9961c478e482",
+  "name": "seaborn",
+  "noarch": "python",
+  "sha256": "60a49c630bf429ae5264ee52f1e6a08df1d8b98c93047ec57f58786ef3094854",
+  "size": 6883,
+  "subdir": "noarch",
+  "timestamp": 1706341016553,
+  "version": "0.13.2",
+  "fn": "seaborn-0.13.2-hd8ed1ab_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/seaborn-0.13.2-hd8ed1ab_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/kt/Library/Caches/rattler/cache/pkgs/seaborn-0.13.2-hd8ed1ab_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": null,
+  "requested_spec": null
+}
